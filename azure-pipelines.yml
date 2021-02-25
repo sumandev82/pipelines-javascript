@@ -1,8 +1,4 @@
 # Build NodeJS Express app using Azure Pipelines
-- task: Cache@2
-  inputs:
-    key: 'test'
-    path: '/.'
 # https://docs.microsoft.com/azure/devops/pipelines/ecosystems/javascript?view=azure-devops
 strategy:
   matrix:
